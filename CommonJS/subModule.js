@@ -1,4 +1,4 @@
-exports.sayHello = ()=>{ //Browser: Uncaught ReferenceError: exports is not defined
+module.exports = ()=>{ //Browser: Uncaught ReferenceError: exports is not defined
     console.log("Hello")
 }
 var privateMethod =()=>{
