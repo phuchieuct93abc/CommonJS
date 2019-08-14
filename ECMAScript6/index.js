@@ -1,4 +1,2 @@
-requirejs(['./subModule'], function (subModule) {
-    subModule.sayHello(); //Node: "Hello"
-    // subModule.privateMethod();
-});
+import {subModule} from './subModule';
+subModule.sayHello();
